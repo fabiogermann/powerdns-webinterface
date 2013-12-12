@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PowerDNS-Webinterface\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-28 02:08+0100\n"
+"PO-Revision-Date: 2012-10-28 02:10+0100\n"
+"Last-Translator: Timo Witte <timo.witte@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../smarty.c:2
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: ../../../smarty.c:5
+msgid "Logout"
+msgstr "Abmelden"
+
+#: ../../../smarty.c:8
+msgid "Overview"
+msgstr "Übersicht"
+
+#: ../../../smarty.c:11
+msgid "Domains"
+msgstr "Domains"
+
+#: ../../../smarty.c:14
+msgid "Records"
+msgstr "Einträge"
+
+#: ../../../smarty.c:17
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: ../../../smarty.c:20
+msgid "User"
+msgstr "Benutzer"
+
+#: ../../../smarty.c:23
+msgid "Supermasters"
+msgstr "Supermasters"
+
+#: ../../../smarty.c:26
+msgid "Do you really want to delete"
+msgstr "Möchten sie wirklich löschen?"
+
+#: ../../../smarty.c:29
+msgid "This can´t be undone!!"
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden!!"
+
+#: ../../../smarty.c:32
+msgid "Create new domain"
+msgstr "Neue Domain anlegen"
+
+#: ../../../smarty.c:35 ../../../smarty.c:116 ../../../smarty.c:221
+msgid "Search"
+msgstr "Suchen"
+
+#: ../../../smarty.c:38 ../../../smarty.c:41 ../../../smarty.c:65
+#: ../../../smarty.c:71 ../../../smarty.c:89 ../../../smarty.c:143
+#: ../../../smarty.c:161 ../../../smarty.c:173 ../../../smarty.c:179
+#: ../../../smarty.c:224
+msgid "Save"
+msgstr "Speichern"
+
+#: ../../../smarty.c:44 ../../../smarty.c:74 ../../../smarty.c:197
+#: ../../../lib/Log.php:35
+msgid "Type"
+msgstr "Typ"
+
+#: ../../../smarty.c:47 ../../../smarty.c:86 ../../../smarty.c:152
+#: ../../../smarty.c:206 ../../../smarty.c:239
+msgid "Action"
+msgstr "Aktion"
+
+#: ../../../smarty.c:50 ../../../smarty.c:134
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: ../../../smarty.c:53
+msgid "Editing"
+msgstr "Bearbeite"
+
+#: ../../../smarty.c:56
+msgid "Edit userrights"
+msgstr "Benutzerrechte bearbeiten"
+
+#: ../../../smarty.c:59
+msgid "Edit domaintemplates"
+msgstr "Domaintemplates bearbeiten"
+
+#: ../../../smarty.c:62 ../../../smarty.c:68 ../../../smarty.c:140
+#: ../../../smarty.c:170 ../../../smarty.c:176
+msgid "New Entry"
+msgstr "Neue Eintrag"
+
+#: ../../../smarty.c:77 ../../../smarty.c:125 ../../../smarty.c:200
+msgid "Content"
+msgstr "Inhalt"
+
+#: ../../../smarty.c:80 ../../../smarty.c:128 ../../../smarty.c:203
+msgid "Priority"
+msgstr "Priorität"
+
+#: ../../../smarty.c:83 ../../../smarty.c:131
+msgid "Last change"
+msgstr "Letzte Änderung"
+
+#: ../../../smarty.c:92
+msgid "Please login below"
+msgstr "Bitte melden sie sich unten an"
+
+#: ../../../smarty.c:95 ../../../smarty.c:209 ../../../smarty.c:230
+msgid "Username"
+msgstr "Benutzername"
+
+#: ../../../smarty.c:98 ../../../smarty.c:212
+msgid "Password"
+msgstr "Passwort"
+
+#: ../../../smarty.c:101
+msgid "Wrong username or password"
+msgstr "Falscher Benutzername oder Passwort"
+
+#: ../../../smarty.c:104
+msgid "Login"
+msgstr "Login"
+
+#: ../../../smarty.c:107
+msgid "Last login:"
+msgstr "Letzter Login:"
+
+#: ../../../smarty.c:110
+msgid "Last ip:"
+msgstr "Letzte IP:"
+
+#: ../../../smarty.c:113
+msgid "Fulltext search in ALL records"
+msgstr "Volltextsuche in allen Einträgen"
+
+#: ../../../smarty.c:119
+msgid "Domaintype"
+msgstr "Domaintyp"
+
+#: ../../../smarty.c:122
+msgid "Recordtype"
+msgstr "Eintragstyp"
+
+#: ../../../smarty.c:137
+msgid "Manage supermasters"
+msgstr "Supermasterserver verwalten"
+
+#: ../../../smarty.c:146
+msgid "Nameserver"
+msgstr "Nameserver"
+
+#: ../../../smarty.c:149
+msgid "Account"
+msgstr "Account"
+
+#: ../../../smarty.c:155
+msgid "No supermasters found"
+msgstr "Keine Supermaster gefunden"
+
+#: ../../../smarty.c:158
+msgid "New Record in Domain"
+msgstr "Neuer Eintrag in bestehender Domain"
+
+#: ../../../smarty.c:164
+msgid "Default Records for new Domains"
+msgstr "Standard Einträge für neue Domains"
+
+#: ../../../smarty.c:167
+msgid ""
+"You can use [DOMAIN] (mydomain.tld) and [STAMP] (2010061501) as a "
+"placeholder."
+msgstr ""
+"Sie können [DOMAIN] (z.B. mydomain.tld) und [STAMP] (z.B. 2010061501) als "
+"Platzhalter verwenden!"
+
+#: ../../../smarty.c:182 ../../../smarty.c:188
+msgid "Key"
+msgstr "Schlüssel"
+
+#: ../../../smarty.c:185 ../../../smarty.c:191
+msgid "Value"
+msgstr "Wert"
+
+#: ../../../smarty.c:194
+msgid "Name"
+msgstr "Name"
+
+#: ../../../smarty.c:215 ../../../smarty.c:233
+msgid "Admin"
+msgstr "Administrator"
+
+#: ../../../smarty.c:218
+msgid "Create new user"
+msgstr "Neuen Benutzer anlegen"
+
+#: ../../../smarty.c:227
+msgid "The user has to relogin for changes to take effect!"
+msgstr ""
+"Der Benutzer muss sich neu einloggen, damit die Änderungen übernommen werden!"
+
+#: ../../../smarty.c:236
+msgid "New Domains"
+msgstr "Neue Domains"
+
+#: ../../../smarty.c:242
+msgid "No users found"
+msgstr "Keine Benutzer gefunden"
+
+#: ../../../lib/Auth.php:35
+msgid "Forcing Auth"
+msgstr "Erwzinge Authentifikation"
+
+#: ../../../lib/Auth.php:40
+msgid "you are not authed and should have been redirected!"
+msgstr "Sie sind nicht authentifiziert und sollten umgeleitet werden!"
+
+#: ../../../lib/Auth.php:47
+msgid "Only admins have permission to access this area!"
+msgstr "Nur Administratoren können diesen Bereich betreten!"
+
+#: ../../../lib/Auth.php:84
+#, php-format
+msgid "%s has successfully loged in from %s"
+msgstr "%s hat sich erfolgreich angemeldet von der IP %s"
+
+#: ../../../lib/Auth.php:89
+#, php-format
+msgid "Authentification from %s for %s has failed"
+msgstr "Authentifikation von %s für %s ist fehgeschlagen"
+
+#: ../../../lib/Configuration.php:47
+#, php-format
+msgid "Arraykey $cfg[%s] is missing!"
+msgstr "Arrayschlüssel $cfg[%s] fehlt!"
+
+#: ../../../lib/Configuration.php:52
+#, php-format
+msgid "Configuration File %s.php not found in configs folder!"
+msgstr ""
+"Die Konfigurationsdatei %s.php konnte nicht im Ordner configs gefunden "
+"werden!"
+
+#: ../../../lib/DB.php:49 ../../../lib/DB.php:52
+msgid "Database connection failed: "
+msgstr "Datenbankverbindung fehlgeschlagen:"
+
+#: ../../../lib/Dispatcher.php:58
+#, php-format
+msgid "Page %s is not known"
+msgstr "Seite %s ist unbekannt"
+
+#: ../../../lib/Dispatcher.php:66
+#, php-format
+msgid "Calling LoadPage on %s"
+msgstr "Rufe Loadpage für %s auf"
+
+#: ../../../lib/Dispatcher.php:105
+#, php-format
+msgid "Action %s is not known"
+msgstr "Aktion %s ist nicht bekannt"
+
+#: ../../../lib/Dispatcher.php:117
+#, php-format
+msgid "Performing Action %s:%s with %s"
+msgstr "Führe Aktion %s:%s mit %s aus"
+
+#: ../../../lib/Log.php:35
+msgid "Message"
+msgstr "Nachricht"
+
+#: ../../../lib/Template.php:45
+#, php-format
+msgid "Rendering Page %s with basetpl %s basedir is %s"
+msgstr "Rendere Seite %s mit basetpl %s das basedir ist %s"
+
+#: ../../../lib/Action/DomainRecords.php:36
+#: ../../../lib/Action/DomainRecords.php:61
+#, php-format
+msgid "Double entry for %s (%s)"
+msgstr "Doppelter Eintrag für %s (%s)"
+
+#: ../../../lib/Action/DomainRecords.php:72
+#, php-format
+msgid "%s were not added because content was empty."
+msgstr "%s wurde nicht hinzugefügt, da der inhalt leer war."
+
+#: ../../../lib/Action/DomainRecords.php:75 ../../../lib/Action/Domains.php:49
+#: ../../../lib/Action/TemplateNewDomain.php:55
+#: ../../../lib/Action/TemplateNewRecord.php:18
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: ../../../lib/Action/DomainRecords.php:293
+#, php-format
+msgid "%s (%s) contains invalid characters"
+msgstr "%s (%s) enthält nicht erlaubte Zeichen"
+
+#: ../../../lib/Action/DomainRecords.php:300
+msgid "You can´t create a second SOA entry!"
+msgstr "Sie können keinen Zweiten SOA-Record anlegen!"
+
+#: ../../../lib/Action/DomainRecords.php:308
+#, php-format
+msgid "The %s for %s should contain a hostname not a ip!"
+msgstr ""
+
+#: ../../../lib/Action/DomainRecords.php:312
+#, php-format
+msgid "%s (A Record) doesn´t contain a ipv4 so no change was made!"
+msgstr "%s (AAAA Record) enthält keine ipv4, es wurde nichts geändert!"
+
+#: ../../../lib/Action/DomainRecords.php:327
+#, php-format
+msgid "There are already %s records refering the IP %s"
+msgstr "Es gibt bereits %s Records die auf IP %s verweisen"
+
+#: ../../../lib/Action/DomainRecords.php:338
+#, php-format
+msgid "%s (AAAA Record) doesn´t contain a ipv6 so no change was made!"
+msgstr "%s (AAAA Record) enthält keine ipv6, es wurde nichts geändert!"
+
+#: ../../../lib/Action/Domains.php:19
+msgid "Domain has been deleted!"
+msgstr "Domain wurde gelöscht!"
+
+#: ../../../lib/Action/Domains.php:29
+msgid "Please supply a master for the SLAVE! No change saved!"
+msgstr "Bitte geben sie einen Master für den SLAVE ein! Nichts gespeichert!"
+
+#: ../../../lib/Action/Domains.php:52
+msgid "Nothing to change"
+msgstr "Nichts zu ändern"
+
+#: ../../../lib/Action/Domains.php:62
+msgid "You don´t have the permission to create a new domain!"
+msgstr "Sie haben keine Berechtigung eine neue Domain anzulegen!"
+
+#: ../../../lib/Action/Domains.php:68
+msgid "Domain shouldn´t be empty!"
+msgstr "Domain darf nicht leer sein!"
+
+#: ../../../lib/Action/Domains.php:76
+#, php-format
+msgid "Domain %s already exists!"
+msgstr "Domain %s existiert bereits!"
+
+#: ../../../lib/Action/Domains.php:117
+msgid "Domain has been created!"
+msgstr "Domain wurde erstellt!"
+
+#~ msgid "Search:"
+#~ msgstr "Suchen:"
+
+#, fuzzy
+#~ msgid "Prio"
+#~ msgstr "Priorität"
+
+#~ msgid "TEST"
+#~ msgstr "TEST_DE"
